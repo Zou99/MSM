@@ -1,0 +1,5 @@
+<!--pages/classify/classify.wxml-->
+<view class='container'>
+<text>pages/classify/classify.wxml</text>
+ <tabbar tabbar="{{tabbar}}"></tabbar> 
+ </view>

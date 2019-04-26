@@ -1,0 +1,222 @@
+/**index.wxss**/
+@import "index-template/index-template.wxss";
+.zzq_container {
+  width: 100%;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+.zzq_nav {
+  background-color: #fff;
+  width: 100%;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0 20rpx 0;
+}
+
+.zzq_sao_img {
+  padding-right: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
+  /* border-radius:50%; */
+  vertical-align: middle;
+}
+
+.zzq_peop_img {
+  padding-left: 40rpx;
+  width: 60rpx;
+  height: 60rpx;
+  /* border-radius:50%; */
+  vertical-align: middle;
+}
+
+.zzq_swiper {
+  width: 100%;
+  height: 350rpx;
+}
+
+.zzq_swiper image {
+  width: 100%;
+}
+
+.zzq_nav_mor {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 5rpx;
+  margin-top: 2rpx;
+}
+
+.zzq_lie_ioc {
+  width: 100%;
+  height: 430rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+
+.zzq_lie_icon {
+  display: block;
+  border-radius: 50%;
+  width: 120rpx;
+  height: 120rpx;
+  margin: 0 auto;
+  font-size: 80rpx;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.zzq_tui_logo {
+  width: 100%;
+  margin: 20rpx 0;
+}
+
+.zzq_tui_logo>image {
+  height: 280rpx;
+  width: 100%;
+}
+
+.zzq_indx_love {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20rpx;
+  padding-bottom: 120rpx;
+}
+
+.zzq_lie_ico_onle {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 20rpx 0;
+}
+
+.zzq_lie_icon_txt {
+  font-size: 30rpx;
+}
+
+/* 我要吃部分css样式 */
+
+/* 吃 玩 截止 */
+
+.zzq_love_clex_img {
+  float: left;
+  height: 200rpx;
+  width: 35%;
+  padding: 10rpx 10rpx 10rpx 20rpx;
+}
+
+.zzq_love_clex_img>image {
+  border-radius: 20rpx;
+  width: 100%;
+  height: 200rpx;
+}
+
+.zzq_index_clex_txt {
+  float: right;
+  width: 60%;
+  padding-top: 10rpx;
+}
+
+.zzq_love_clex {
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 20rpx;
+  text-align: left;
+  margin-bottom: 20rpx;
+  width: 100%;
+  height: 240rpx;
+}
+
+.zzq_index_clex_txt_mon {
+  margin: 10rpx 0;
+  font-size: 35rpx;
+  color: #686868;
+}
+
+.zzq_index_clex_down {
+  margin: 10rpx 0;
+  font-size: 32rpx;
+  color: #ff6200;
+}
+
+.zzq_clex_down_bro_siz {
+  color: #ff6200;
+  margin: 10rpx 0;
+  font-size: 30rpx;
+}
+
+.zzq_clex_down_bro_siz>text {
+  background-color: #fdf9e9;
+  padding: 10rpx;
+}
+
+.zzq_index_clex_newTxt {
+  float: right;
+  padding-right: 80rpx;
+  color: #686868;
+}
+
+.zzq_index_clex_down_right {
+  font-size: 38rpx;
+}
+
+.zzq_indx_love_txt {
+  font-size: 30rpx;
+  color: #686868;
+}
+
+.zzq_index_search {
+  background-color: #fff;
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+
+.zzq_index_search input {
+  height: 100%;
+  width: 600rpx;
+  margin-left: 20px;
+  font-size: 28rpx;
+}
+
+.placeholder {
+  font-size: 14px;
+  color: #d1d1d1;
+  margin-left: 20rpx;
+}
+
+.search-panel {
+  position: absolute;
+  top: 60rpx;
+}
+
+.search-img {
+  margin: auto 0 auto 20rpx;
+}
+
+.xx-img {
+  margin: auto 0 auto 0rpx;
+}
+
+.zzq_load {
+  color: #000;
+  text-align: center;
+  line-height: 20px;
+  /* height: 20px; */
+  margin-top: -19rpx;
+  width: 100%;
+  background-color: #fff;
+}
+
+.zzq_laod_img {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+}
+
+.zzq_clex_bgImg {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,119 @@
+<!--index.wxml-->
+<import src="index-template/index-template.wxml" />
+<view class="zzq_container">
+
+  <view class='zzq_nav'>
+    <image class='zzq_sao_img' bindtap='scan' src='../images/saoma.png'></image>
+    <view bindtap='zzqmap'>
+      <text>宿迁市</text>
+      <image class='zzq_nav_mor' src='../images/mor.png'></image>
+    </view>
+    <image class='zzq_peop_img' src='../images/peop.png'></image>
+  </view>
+
+  <!-- 轮播图 -->
+  <swiper class='zzq_swiper' indicator-dots="{{animate}}" indicator-active-color="#109D59" autoplay="{{animate}}" interval="{{speed}}" circular="{{animate}}">
+    <!-- 第一张图片 -->
+    <swiper-item class='zzq_clex_bgImg' style='background-image:url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=936181170,1622319375&fm=26&gp=0.jpg)'>
+
+    </swiper-item>
+    <!-- 第二张图 -->
+    <swiper-item class='zzq_clex_bgImg' style='background-image:url(https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3481166283,3345914357&fm=26&gp=0.jpg)'>
+
+    </swiper-item>
+    <!-- 第三张图 -->
+    <swiper-item class='zzq_clex_bgImg' style='background-image:url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3341809776,3899868925&fm=26&gp=0.jpg)'>
+
+    </swiper-item>
+  </swiper>
+
+  <!-- 搜索框 -->
+  <view class='zzq_index_search'>
+    <icon type='search' size='13' class='search-img'></icon>
+    <!-- bindfocus获取焦点 || bindblur失去焦点 -->
+    <input placeholder='复仇者联盟' placeholder-class='placeholder' bindfocus='onBindFocus' bindblur='onBindBlur'>...</input>
+    <icon type='clear' size='13' class='xx-img'></icon>
+  </view>
+
+  <!-- 列表图标 -->
+  <!-- <view class='zzq_lie_ioc'>
+    <view class='zzq_lie_ico_all'>
+
+      <view class='zzq_lie_ico_onle' wx:for="{{array}}">
+        <text class='zzq_lie_icon iconfont {{item.accIcon}}' style='background-color:{{item.accStyle}}'></text>
+        <text class='zzq_lie_icon_txt'>{{item.accText}}</text>
+      </view>
+
+    </view>
+  </view> -->
+
+
+  <!-- 我想吃 -->
+  <view class='zzq_nav_eat'>
+    <view bindtap='arrList'>
+      <text>我要吃</text>
+      <text class='iconfont iconfanhui-r'></text>
+    </view>
+ 
+    <!-- 这里是 我要吃 部分的商品列表 -->
+    <block wx:for="{{numberdata}}" wx:for-item="item" wx:key="key">
+      <view data-user_id='{{item.user_id}}' bindtap='indexdetil'>
+        <!-- 正文 我要吃 部分 -->
+        <template is="newstemplate" data="{{...item}}" />
+      </view>
+    </block>
+
+  </view>
+
+  <!-- 我想玩 -->
+  <view class='zzq_nav_eat'>
+    <text>我要玩</text>
+    <text class='iconfont iconfanhui-r'></text>
+
+       <!-- 这里是 我要玩 部分的商品列表 -->
+    <block wx:for="{{gamedata}}" wx:for-item="item" wx:key="key">
+      <view data-user_id='{{item.user_id}}'>
+        <!-- 正文 我要吃 部分 -->
+        <template is="gametemplate" data="{{...item}}" />
+      </view>
+    </block>
+  </view>
+
+  <!-- 横幅推荐商品的图片 -->
+  <view class='zzq_tui_logo'>
+    <image src='../images/swip-nav.jpg'></image>
+  </view>
+
+  <!-- 推荐商品 -->
+  <view class='zzq_indx_love'>
+    <text class='zzq_indx_love_txt'> - 猜你喜欢 -  </text>
+    <view class='zzq_love_clex' wx:for="{{commodity}}" wx:key="key">
+      <view class='zzq_love_clex_img'>
+        <image src='{{item.comImg}}'></image>
+      </view>
+      <view class='zzq_index_clex_txt'>
+        <view>{{item.comShopnam}}</view>
+        <view class='zzq_index_clex_txt_mon'>{{item.comScore}}</view>
+        <view class='zzq_index_clex_down'>
+          ￥
+          <text class='zzq_index_clex_down_right'>{{item.comMoney}}</text>
+          <text class='zzq_index_clex_newTxt'>已售{{item.commCent}}</text>
+        </view>
+
+        <view class='zzq_clex_down_bro_siz'>
+          新店特惠:
+          <text>{{item.commZheko}}折</text>
+        </view>
+
+      </view>
+    </view>
+
+    <!-- 上拉加载的时候显示的loading图片 -->
+    <view class='zzq_load' wx:if='{{isloading}}'>
+      <image src='../images/load.gif' class='zzq_laod_img'></image>
+    </view>
+  </view>
+
+
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

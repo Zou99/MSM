@@ -1,0 +1,53 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/product/product",
+    "pages/activity/activity",
+    "pages/personal/personal",
+    "pages/business/business",
+    "pages/index/maop/maop",
+    "pages/index/lists/lists",
+    "pages/index/details/details"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EE7700",
+    "navigationBarTitleText": "美商美",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#EE7700",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/index.png",
+        "selectedIconPath": "pages/images/index2.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "pages/images/classify.png",
+        "selectedIconPath": "pages/images/classify2.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "pages/images/activity.png",
+        "selectedIconPath": "pages/images/activity2.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "pages/images/geren.png",
+        "selectedIconPath": "pages/images/geren2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

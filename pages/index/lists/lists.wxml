@@ -1,0 +1,48 @@
+<!--pages/index/lists/lists.wxml-->
+<view class='zzq_index_list'>
+  <!-- 筛选的按钮部分，全部，附近，折扣 -->
+  <view class='zzq_index_list_screen'>
+    <view class='zzq_list_scr'>
+      <text>全部分类</text>
+      <text class='zzq_list_scr_icon'></text>
+    </view>
+    <view class='zzq_list_scr'>
+      <text>附近</text>
+      <text class='zzq_list_scr_icon'></text>
+    </view>
+    <view class='zzq_list_scr'>
+      <text>折扣</text>
+      <text class='zzq_list_scr_icon'></text>
+    </view>
+  </view>
+
+  <!-- 商品列表 -->
+  <view class='zzq_nav_eat_img'>
+
+    <view class='zzq_nav_eat_shop' wx:for="{{arrIist}}" wx:key='key'>
+      <view>
+        <image src='{{item.arrLimg}}'></image>
+        <text class='dfs'>美食</text>
+        <view>
+          <text class='zzq_nav_eat_res' style='display:block;'>{{item.arrLshop}}</text>
+          <text class='zzq_nav_eat_m'>￥{{item.arrLmoney}} </text>
+          <text class='zzq_nav_eat_mon2'> 2人团</text>
+        </view>
+        <view class='zzq_ret_list_area'>
+          <text class='zzq_ret_list_area_mon'>￥{{item.arrOldmoney}}</text>
+          <text class='zzq_ret_list_area_mon_rig'>{{item.arrOldarea}}11.2km</text>
+        </view>
+
+      </view>
+
+    </view>
+
+
+  </view>
+
+
+
+
+
+
+</view>

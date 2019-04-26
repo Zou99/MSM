@@ -1,0 +1,4 @@
+<!--pages/personal/personal.wxml-->
+
+<text>pages/personal/personal.wxml</text>
+ <tabbar tabbar="{{tabbar}}"></tabbar> 

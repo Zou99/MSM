@@ -1,0 +1,41 @@
+<!-- index-template页面 -->
+<template name='newstemplate'>
+      <view class='zzq_nav_eat_img'>
+
+      <view class='zzq_nav_eat_shop'>
+        <view>
+          <image src='{{authonImg}}'></image>
+          <text class='dfs'>{{authonDfs}}</text>
+        </view>
+        <view>
+          <text class='zzq_nav_eat_res' style='display:block;'>{{authonShop}}</text>
+          <text class='zzq_nav_eat_mon'>￥{{authonMoney}}</text>
+          <text class='zzq_nav_eat_mon2'>￥{{authonOldmon}}</text>
+        </view>
+      </view>
+
+    </view>
+</template>
+
+<!-- 我要玩部分的数据 -->
+<template name='gametemplate'>
+ <view class='zzq_nav_eat_img'>
+
+      <view class='zzq_nav_eat_shop'>
+        <view>
+        <view class='zzq_nav_eat_shop_img_nwe'>
+        <image src='{{authonImg}}'></image>
+        </view>
+          
+          <text class='dfs'>{{authonDfs}}</text>
+        </view>
+
+        <view>
+          <text class='zzq_nav_eat_res' style='display:block;'>{{authonShop}}</text>
+          <text class='zzq_nav_eat_mon'>￥{{authonMoney}}</text>
+          <text class='zzq_nav_eat_mon2'>￥{{authonOldmon}}</text>
+        </view>
+      </view>
+
+    </view>
+</template>

@@ -1,0 +1,11 @@
+<!--pages/product/product.wxml-->
+<text>pages/product/product.wxml</text>
+<view>
+  <view>
+    美商美企业文化:
+  </view>
+  <view>
+    江苏美商美注册于20xx年，期间估值投入资金1块2！。拥有很大的股份市场
+  </view>
+</view>
+ <tabbar tabbar="{{tabbar}}"></tabbar> 

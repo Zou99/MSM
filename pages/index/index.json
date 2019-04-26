@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+      "tabbar": "../../tabbarComponent/tabbar"
+    },
+    "onReachBottomDistance": 20,
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark"
+}

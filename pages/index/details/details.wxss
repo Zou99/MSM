@@ -1,0 +1,137 @@
+/* pages/index/details/details.wxss */
+
+.zzq_detile_container {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.zzq_detile_Cont_nav {
+  width: 100%;
+  height: 400rpx;
+}
+
+.zzq_detile_Cont_nav>image {
+  width: 100%;
+  height: 100%;
+}
+
+.zzq_detile_shop_all {
+  width: 100%;
+}
+
+.zzq_detile_shop {
+  width: 100%;
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.zzq_detils_pinf, .zzq_detils_evey {
+  font-size: 30rpx;
+  padding-right: 10rpx;
+}
+
+.zzq_detils_pinf {
+  color: #f90;
+}
+
+.zzq_detils_evey {
+  color: #848d96;
+}
+
+.zzq_ico_shop {
+  color: #f90;
+}
+
+.zzq_ico_sho, .zzq_ico_shop {
+  margin: 0 5rpx;
+  font-size: 35rpx;
+}
+
+.zzq_detil_area {
+  line-height: 2;
+}
+
+.zzq_detil_area_txt {
+  font-size: 30rpx;
+}
+
+.zzq_detil_loc {
+  padding-left: 30rpx;
+  /* padding-right: 15rpx; */
+  font-size: 45rpx;
+}
+
+.zzq_detil_weizhi {
+  padding-left: 30rpx;
+  color: #06c1ae;
+  font-size: 45rpx;
+}
+
+.zzq_detil_copmon {
+padding-top:20rpx;
+width:100%;
+padding-bottom:20rpx;
+background-color:#fff;
+
+}
+
+.zzq_detil_Coupon {
+  padding-left: 30rpx;
+}
+
+.zzq_detil_Coupon_txt {
+  background-color: #f90;
+  color: #fff;
+  padding: 5rpx 10rpx;
+  font-size: 30rpx;
+  margin-right: 15rpx;
+}
+
+.zzq_Coupon_detils_mon {
+  width: 86%;
+  border: 1px solid #ffebcd;
+  background-color: #fffaf4;
+  padding: 10rpx 20rpx;
+  margin: 20rpx 0 10rpx 30rpx;
+}
+
+.zzq_Coupon_detils_mon_jie {
+  width: 100%;
+  padding-top: 15rpx;
+}
+
+.zzq_Coupon_detils_sun {
+  color: #999;
+  font-size: 30rpx;
+}
+
+.zzq_Coupon_detils_btn {
+  background-color: #f90;
+  color: #fff;
+  float: right;
+  padding: 10rpx 15rpx;
+  font-size: 35rpx;
+  border-radius: 10rpx;
+}
+.zzq_Coupon_detils_dzhe{
+  padding-top: 30rpx;
+}
+.zzq_Coupon_dzhe_txt{
+  color: #f90;
+}
+.zzq_Coupon_dzhe_txt_min{
+  font-size: 30rpx;
+  padding: 5rpx 10rpx;
+  border: 1px solid #f90;
+}
+.zzq_Coupon_dzhe_year{
+  float: right;
+  color: #999;
+  font-size: 30rpx;
+}
+.zzq_detil_Recommend{
+  margin-top: 20rpx;
+  width: 100%;
+}

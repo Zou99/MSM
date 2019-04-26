@@ -1,0 +1,94 @@
+<!--pages/index/details/details.wxml-->
+<view class='zzq_detile_container'>
+  <!-- 导航部分商家图片 -->
+  <view class='zzq_detile_Cont_nav'>
+    <image src='{{authonImg}}'></image>
+  </view>
+
+  <!-- 正文部分，商家介绍 -->
+  <view class='zzq_detile_shop_all'>
+    <view class='zzq_detile_shop'>
+      <text>{{authonShop}}</text>
+      <view class='zzq_detile_shop_ico'>
+        <icon class='iconfont iconxingxing zzq_ico_shop'></icon>
+        <icon class='iconfont iconxingxing zzq_ico_shop'></icon>
+        <icon class='iconfont iconxingxing zzq_ico_shop'></icon>
+        <icon class='iconfont iconxingxing zzq_ico_shop'></icon>
+        <icon class='iconfont iconxing zzq_ico_sho'></icon>
+        <text class='zzq_detils_pinf'>3.9分</text>
+        <text class='zzq_detils_evey'>人均:￥51</text>
+      </view>
+    </view>
+
+    <!-- 店家地址 -->
+    <view class='zzq_detil_area'>
+      <icon class='iconfont iconlocation zzq_detil_loc'></icon>
+      <text class='zzq_detil_area_txt'>宿城区西湖路宝龙城市广场3楼(快乐迪ktv附近)</text>
+      <icon class='iconfont iconweibiaoti- zzq_detil_weizhi'></icon>
+    </view>
+
+    <!-- 代金券中的抵用券 -->
+    <view class='zzq_detil_copmon'>
+      <view class='zzq_detil_Coupon'>
+        <text class='zzq_detil_Coupon_txt'>券</text>
+        <text class='zzq_detil_Coupon_siz'>代金券</text>
+      </view>
+
+      <view class='zzq_Coupon_detils_mon'>
+        <view>
+          <text>50元代金券</text>
+        </view>
+        <view class='zzq_Coupon_detils_mon_jie'>
+          <text class='zzq_Coupon_detils_sun'> 周一至周日 | 部分商品不可用 | 不限张数 </text>
+          <text class='zzq_Coupon_detils_btn'>抢购</text>
+        </view>
+        <view class='zzq_Coupon_detils_dzhe'>
+          <text class='zzq_Coupon_dzhe_txt'>￥47 <text class='zzq_Coupon_dzhe_txt_min'>9.4折</text> </text>
+          <text class='zzq_Coupon_dzhe_year'>半年销量5.1万+</text>
+        </view>
+      </view>
+
+      <view>
+
+      </view>
+    </view>
+
+    <!-- 推荐菜 -->
+    <view class='zzq_detil_Recommend'>
+      <view class='zzq_detil_Recommend_title'>
+        <text>推荐菜</text>
+        <icon></icon>
+      </view>
+
+       <view>
+        <text>
+          <icon></icon>
+          <text>大众点评 · 网友推荐(24)</text>
+        </text>
+       </view>
+
+        <view>
+          <text></text>
+        </view>
+
+    </view>
+
+
+
+
+
+
+
+
+
+<!-- 正文商家介绍的结尾标签 -->
+  </view>
+
+
+
+
+
+
+
+
+</view>

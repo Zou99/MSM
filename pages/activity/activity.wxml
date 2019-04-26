@@ -1,0 +1,4 @@
+<!--pages/activity/activity.wxml-->
+
+<text>pages/activity/activity.wxml</text>
+ <tabbar tabbar="{{tabbar}}"></tabbar> 
